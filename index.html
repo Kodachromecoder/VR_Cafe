@@ -11,44 +11,69 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" >
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Kara's VR Cafe</title>
 </head>
 <body>
     <!--Beginning of header/jumbotron-->
-    <header class="jumbotron jumbotron-fluid">
+    <header class="jumbotron">
         <div class="container">
-            <div class="row align-items-start justify-content-between">
-                <div class="col">
-                    <i class="fas fa-vr-cardboard"></i>
+            <div class="row align-items-start justify-content-between no-gutters m-o p-0">
+                <div class="col-sm-1">
+                    <img src="img/kvrlogo.svg" alt="Kara's VR Cafe Logo" height="75px" />
                 </div>
-                <div class="col">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </div>
-            <div class="row align-items-end justify-content-center">
-                <div class="col mx-auto">
-                    <a class="btn btn-light btn-lg" id="reserveButton" role="button"  >Reserve A Time</a>
+                <div class="col-sm-1">
+                    <img src="img/yellowhammie.svg" alt="Dropdown toggle" height="40px"/>
                 </div>
             </div>
+            
         </div>
     </header>
     <!--End of header/jumbotron-->
 
     <!--Main Body-->
     <div class="container">
-        <div  class="row row-content align-items-center">
+        <div class="row sticky-top" id="beSticky">
             <div class="col">
-                <div class="media">
-                    <img class="" src="" alt="" />
-                    <div class="media-body align-self-center">
-                        <h3>Coffee & Food</h3>
-                        <p class="">Exjoy our quiet coffee shop for reading or coding. Take your drinks and food with you to enjoy during your VR experience.</p>
-                    </div>
+                <a class="btn btn-light btn-lg btn-outline-dark mx-auto" id="reserveButton" role="button"  >Reserve A Time</a>
+            </div>
+        </div>
+        <div  class="row row-content align-items-center">
+            <div class="media col">
+                <img class="images .d-none .d-sm-block" src="#" alt="#" />
+                <div class="media-body align-self-center">
+                        <h3>Your VR Experience</h3>
+                        <p class=".d-sm-none .d-md-block">Check out our game options, pricing and room options.</p>
                 </div>
             </div>
         </div>
-
+        <div  class="row row-content align-items-center">
+            <div class="media col">
+                <img class="images .d-none .d-sm-block" src="#" alt="#" />
+                <div class="media-body align-self-center">
+                        <h3>Coffee & Food</h3>
+                        <p class=".d-sm-none .d-md-block">Enjoy our quiet coffee shop for reading or coding. Take your drinks and food with you to enjoy during your VR experience.</p>
+                </div>
+            </div>
+        </div>
+        <div  class="row row-content align-items-center">
+            <div class="media col">
+                <img class="images .d-none .d-sm-block" src="#" alt="#" />
+                <div class="media-body align-self-center">
+                        <h3>Event rental</h3>
+                        <p class=".d-sm-none .d-md-block">We can set up a custom experience for virtually any occasion. Looking for a fun way to reward employees and build teamwork? Tired of boring wedding receptions? Girl scouts looking to explore the world or the universe? All these and more are possible. </p>
+                </div>
+            </div>
+        </div>
+        <div  class="row row-content align-items-center">
+            <div class="media col">
+                <img class="images .d-none .d-sm-block" src="#" alt="#" />
+                <div class="media-body align-self-center">
+                        <h3>About Us</h3>
+                        <p class=".d-sm-none .d-md-block">Where are we? I mean, in the real world...</p>
+                </div>
+            </div>
+        </div>
     </div>
     <!--End of Main Body-->
 
