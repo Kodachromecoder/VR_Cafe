@@ -1,0 +1,17 @@
+body {
+    font-family: "Cairo", sans-serif;
+    color: purple;
+}
+
+.site-footer {
+    background: #F0ED00;
+    padding: 20px 0;
+}
+
+.jumbotron {
+    background-image: url("../img/CampgroundSmall.jpg");
+    background-size: cover;
+    height: 50vh;
+    margin-bottom: 0px;
+  }
+
