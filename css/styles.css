@@ -17,17 +17,34 @@ body {
   }
 
   #beSticky {
-      background-color: #F0ED00;
+      background: linear-gradient(#F0ED00, #1F46F0);
       height: 100px;
   }
 
   .row-content {
       min-height: 300px;
       background-color: #F0ED00;
+      padding: 30px;
+  }
+  .row-content2 {
+    min-height: 300px;
+    padding: 30px;
+} 
+
+  .media-body {
+      padding: 30px;
+  }
+
+  .media {
+      
   }
 
   #images {
-      background: #1F46F0
-      height: 300px;
+      width: auto;
+      max-height: 75%;
+  }
+
+  .nav-link {
+      color: white;
   }
 
