@@ -2,22 +2,48 @@ body {
     font-family: "Cairo", sans-serif;
 }
 
+ #myLogo {
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+h1 {
+    color: white;
+}
+
+#reserveButton {
+    background-color:#F0ED00;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../img/yellowhammie.svg") !important;
+}
+
 .site-footer {
-    background: radial-gradient(50% 50%, #F0ED00, #1F46F0, black);
+    background: radial-gradient(50% 50%, #F0ED00, #142b54, #0a091a);
     color: white;
     padding: 20px 0;
 }
 
 .jumbotron {
-    background: radial-gradient(60% 60%, #F0ED00 20%, #1F46F0, black 70%);
+    background-image: url("../img/indeximage.jpg");
+    background-color: #0a091a;
     background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: 80vh;
     margin-bottom: 0px;
+    padding-bottom: 20%;
   }
 
+  .jumbotron h1 {
+      display: block;
+      padding-top: 70%;
+      font-size: 48px;
+      color: #F0ED00;
+  }
   #beSticky {
-      background: linear-gradient(#F0ED00, #1F46F0);
       height: 100px;
   }
 
@@ -35,9 +61,6 @@ body {
       padding: 30px;
   }
 
-  .media {
-      
-  }
 
   #images {
       width: auto;
@@ -48,3 +71,6 @@ body {
       color: white;
   }
 
+  .doit {
+      align-items: flex-end !important;
+  }
