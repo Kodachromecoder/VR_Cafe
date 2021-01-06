@@ -14,6 +14,7 @@ h1 {
 
 #reserveButton {
     background-color:#F0ED00;
+    box-shadow: 10px 10px 5px 5px #888888;
 }
 
 .navbar-toggler-icon {
@@ -38,10 +39,8 @@ h1 {
   }
 
   .jumbotron h1 {
-      display: block;
-      padding-top: 70%;
       font-size: 48px;
-      color: #F0ED00;
+      color: white;
   }
   #beSticky {
       height: 100px;
@@ -72,5 +71,10 @@ h1 {
   }
 
   .doit {
-      align-items: flex-end !important;
+      position: absolute;
+      top: 70%;
+      left: 5%;
+      text-align: left;
+      padding-bottom: 10px;
+     
   }
