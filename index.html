@@ -24,10 +24,10 @@
                     <nav class="navbar navbar-dark sticky-top">
                         <a class="navbar-brand" id="myLogo" href="index.html"> KCVR</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#VRmainNavbar" aria-controls="VRmainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon">                     </span>
+                            <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="VRmainNavbar">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav justify-content-end text-right mt-0">
                                 <li class="nav-item active"><a class="nav-link" href="index.html"> Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#"> VR Info</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#"> Coffee</a></li>
@@ -38,11 +38,9 @@
                     </nav>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-6 doit">
-                    <h1>Kansas City Virtual Reality Cafe</h1>
-                </div>
-                <div class="col-sm-6 wrapper">
+            <div class="row align-items-end  justify-content-between">
+                
+                <div class="col-md-6 wrapper">
                     <input type="checkbox">
                     <div class="video">
                         <video src="img/beatsaber1smallvid.mp4" loop muted autoplay></video>
@@ -50,6 +48,9 @@
                     <div class="text">
                         <span data-text="Schedule a time"></span>
                     </div>
+                </div>
+                <div class="col-md-6 doit">
+                    <h1>Kansas City Virtual Reality Cafe</h1>
                 </div>
             </div>
         </div>
@@ -68,37 +69,37 @@
         
         <!--End of scheduler-->
         <div  class="row row-content2 align-items-center">
-            <div class="media col">
-                <img class="images img-thumbnail img-fluid d-none d-sm-block" src="img/beatsaber.jpg" alt="Beat Saber logo" />
-                <div class="media-body align-self-center">
-                        <h3>Your VR Experience</h3>
-                        <p class=".d-sm-none .d-md-block">Check out our game options, pricing and room options.</p>
-                </div>
+            <div class="col-md-6 d-none d-sm-block">
+                <img class="images img-thumbnail img-fluid .max-width: 100% height: auto " src="img/beatsaber.jpg" alt="Beat Saber logo" />
+            </div>
+            <div class="col-md-6 align-self-center text-center">
+                <h3>Your VR Experience</h3>
+                <p class=".d-sm-none .d-md-block">Check out our game options, pricing and room options.</p>
             </div>
         </div>
         <div  class="row row-content align-items-center">
-            <div class="media col">
-                <img class="images img-thumbnail img-fluid d-none d-sm-block" src="img/coffeeshop.jpg" alt="Woman and man at a coffee shop" />
-                <div class="media-body order-first align-self-center">
-                        <h3>Coffee & Food</h3>
-                        <p class=".d-sm-none .d-md-block">Enjoy our quiet coffee shop for reading or coding. Take your drinks and food with you to enjoy during your VR experience.</p>
-                </div>
+            <div class="col-md-6 d-none d-sm-block">
+                <img class="images img-thumbnail img-fluid .max-width: 100% height: auto d-none d-sm-block" src="img/coffeeshop.jpg" alt="Woman and man at a coffee shop" />
             </div>
+            <div class="col-md-6 order-first align-self-center text-center">
+                <h3>Coffee & Food</h3>
+                <p class=".d-sm-none .d-md-block">Enjoy our quiet coffee shop for reading or coding. Take your drinks and food with you to enjoy during your VR experience.</p>
+            </div> 
         </div>
         <div  class="row row-content2 align-items-center">
-            <div class="media col">
-                <img class="images img-thumbnail img-fluid d-none d-sm-block" src="img/celebration.jpg" alt="Group of people celebrating" />
-                <div class="media-body align-self-center">
-                        <h3>Event rental</h3>
-                        <p class=".d-sm-none .d-md-block">We can set up a custom experience for any occasion. Birthdays,   weddings receptions, girl/boy scouts, or employee team building.  </p>
-                </div>
+            <div class="col-md-6 d-none d-sm-block">
+                <img class="images img-thumbnail img-fluid.max-width: 100% height: auto d-none d-sm-block" src="img/celebration.jpg" alt="Group of people celebrating" />
+            </div>
+            <div class="col-md-6 align-self-center text-center">
+                <h3>Event rental</h3>
+                <p class=".d-sm-none .d-md-block">We can set up a custom experience for any occasion. Birthdays,   weddings receptions, girl/boy scouts, or employee team building.  </p>
             </div>
         </div>
         <div  class="row row-content mb-4 align-items-center">
             <div class="map-responsive col-md-6">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3098.297533480975!2d-94.64416688218682!3d39.0541331389114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0ee065562b46b%3A0xb0533075c34008f4!2sMerriam%20Ln%2C%20Kansas%20City%2C%20KS%2066103!5e0!3m2!1sen!2sus!4v1609779558943!5m2!1sen!2sus" width="370" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
-            <div class="col-md-6 align-self-center">
+            <div class="col-md-6 align-self-center text-center">
                         <h3>About Us</h3>
                         <p class="d-sm-none d-md-block">Where are we? I mean, in the real world...</p>
             </div>  

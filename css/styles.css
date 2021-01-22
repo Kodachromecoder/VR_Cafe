@@ -13,7 +13,7 @@ h1 {
 }
 
 #reserveButton {
-    background-color:#F0ED00;
+    background-color:#9f99ec;
     box-shadow: 10px 10px 5px 5px #888888;
 }
 
@@ -22,7 +22,7 @@ h1 {
 }
 
 .site-footer {
-    background: radial-gradient(50% 50%, #F0ED00, #142b54, #0a091a);
+    background: radial-gradient(50% 50%, #9f99ec, #5b51e8, #0a091a);
     color: white;
     padding: 20px 0;
 }
@@ -48,18 +48,13 @@ h1 {
 
   .row-content {
       min-height: 300px;
-      background-color: #F0ED00;
+      background-color: #9f99ec;
       padding: 30px;
   }
   .row-content2 {
     min-height: 300px;
     padding: 30px;
 } 
-
-  .media-body {
-      padding: 30px;
-  }
-
 
   #images {
       width: auto;
