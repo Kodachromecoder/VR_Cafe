@@ -17,11 +17,11 @@
 <body>
     <!--Beginning of header/jumbotron-->
     
-    <header class="jumbotron">
-        <div class="container-fluid"></div>
+    <header>
+        <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <nav class="navbar navbar-dark sticky-top">
+                    <nav class="navbar sticky-top">
                         <a class="navbar-brand" id="myLogo" href="index.html"> KCVR</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#VRmainNavbar" aria-controls="VRmainNavbar" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,6 @@
                         <div class="collapse navbar-collapse" id="VRmainNavbar">
                             <ul class="navbar-nav justify-content-end text-right mt-0">
                                 <li class="nav-item active"><a class="nav-link" href="index.html"> Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#"> VR Info</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#"> Coffee</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#"> Event Rental</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#"> About</a></li>
@@ -38,21 +37,9 @@
                     </nav>
                 </div>
             </div>
-            <div class="row align-items-end  justify-content-between">
-                
-                <div class="col-md-6 wrapper">
-                    <input type="checkbox">
-                    <div class="video">
-                        <video src="img/beatsaber1smallvid.mp4" loop muted autoplay></video>
-                    </div>
-                    <div class="text">
-                        <span data-text="Schedule a time"></span>
-                    </div>
-                </div>
-                <div class="col-md-6 doit">
-                    <h1>Kansas City Virtual Reality Cafe</h1>
-                </div>
-            </div>
+        </div>
+        <div class="jumbotron">
+
         </div>
     </header>
 
@@ -60,14 +47,6 @@
 
     <!--Main Body-->
     <div class="container">
-        <!--Scheduler here. This is temp layout and will be replaced by a working backend scheduling function in later classes.-->
-        <div class="row sticky-top" id="beSticky">
-            <div class="col d-flex justify-content-center">
-               <!--Future Schedule-->
-            </div>
-        </div>
-        
-        <!--End of scheduler-->
         <div  class="row row-content2 align-items-center">
             <div class="col-md-6 d-none d-sm-block">
                 <img class="images img-thumbnail img-fluid .max-width: 100% height: auto " src="img/beatsaber.jpg" alt="Beat Saber logo" />
